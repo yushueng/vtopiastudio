@@ -21,7 +21,7 @@ export default function ProjectsSection() {
       id: 3,
       title: "Janina Bazavan",
       description: "Sito accademia di formazione, realizzato con Shopify.",
-      image: "janina.jpg",
+      image: "janinabazavan.jpg",
       tags: ["UI/UX Design", "Sviluppo Web"],
       url: "https://janinabazavanacademy.it", // URL del progetto
     },
