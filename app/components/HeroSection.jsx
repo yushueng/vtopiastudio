@@ -55,7 +55,7 @@ export default function HeroSection() {
       </nav>
 
       {/* Main content */}
-      <div className="flex flex-col md:flex-row items-center md:items-start max-w-7xl mx-auto gap-8 md:gap-12">
+      <div className="flex flex-col md:flex-row items-center md:justify-center md:items-center max-w-7xl mx-auto gap-8 md:gap-12">
         {/* Left text block */}
         <div className="flex-1 w-full max-w-lg">
           <button className=" text-black border border-gray-400 rounded-full px-4 py-1 text-xs sm:text-sm mb-5 sm:mb-6 hover:bg-gray-200 transition">
@@ -90,7 +90,7 @@ export default function HeroSection() {
       </div>
 
       {/* Bottom black section */}
-      <div className="relative mt-16 sm:mt-20 bg-white rounded-[60px] pt-16 sm:pt-15 pb-10 sm:pb-12 px-6 sm:px-12 flex flex-col items-center">
+      <div className="relative mt-16 sm:mt-20 bg-white rounded-[60px] pt-10 sm:pt-15 pb-10 sm:pb-12 px-6 sm:px-12 flex flex-col items-center">
         <div className="absolute top-0 left-0 w-full h-1.5  rounded-t-3xl"></div>
         {/* Bottone inclinato */}
         <button
@@ -101,6 +101,9 @@ export default function HeroSection() {
 
         {/* Loghi */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-x-8 gap-y-6 max-w-5xl w-full ">
+          <div className="text-purple-900 text-4xl font-bold md:hidden">
+            TEACH STACK
+          </div>
           <div className="flex gap-x-10 md:gap-x-15 items-center">
             <img
               src="javascript.png"
